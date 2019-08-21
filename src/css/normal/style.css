@@ -1,0 +1,30 @@
+@import url("https://fonts.google.com/specimen/Josefin+Sans");
+html {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  height: 100%;
+  background: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.apparel__head {
+  float: left;
+}
+
+.apparel__head--info {
+  background: url("/src/images/bg-pattern-desktop.svg") no-repeat top left;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .apparel__head {
+    height: 100vh;
+  }
+  .apparel__head--info {
+    width: 100vh;
+  }
+}
+/*# sourceMappingURL=style.css.map */
